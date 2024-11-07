@@ -7,7 +7,7 @@ files=("ckm3u8.html" "ffm3u8.html" "fsm3u8.html" "lzm3u8.html" "tkm3u8.html" "zz
 for file in "${files[@]}"; do
   echo "Searching for $file in directories containing /js/player..."
   # 查找包含 /js/player 路径的目录中的文件
-  find . -type f -path "*/js/player/${file}" -print -exec sed -i 's|https://www.snplayer.com/|https://lziplayer.com/|g' {} \;
+  find . -type f -path "*/js/player/${file}" -print -exec sed -i 's|https://jx.wuvodbf.com/dplayer/|https://lziplayer.com/|g' {} \;
 done
 
 echo "Script execution completed."
