@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义要查找和修改的文件列表
-files=("ckm3u8.html" "ffm3u8.html" "fsm3u8.html" "lzm3u8.html" "tkm3u8.html" "zz.html")
+files=("ckm3u8.html" "ffm3u8.html" "360zy.html" "lzm3u8.html" "tkm3u8.html" "zz.html")
 
 # 遍历文件列表
 for file in "${files[@]}"; do
